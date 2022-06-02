@@ -1,0 +1,19 @@
+*.zip
+
+# mysql/
+mysql/**/*.zip
+
+
+# WebCrawler/
+*.mp4
+*.ts
+*.mov
+
+WebCrawler/**/novel/
+WebCrawler/**/img/
+WebCrawler/**/video*/
+WebCrawler/**/*.zip
+WebCrawler/**/*.rar
+
+# Redis/
+Redis/**/*.zip
