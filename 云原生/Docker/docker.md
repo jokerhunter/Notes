@@ -16,13 +16,25 @@ docker run -it <image id>
         # 输入exit 容器直接停止
         # ctrl+p+q 第一次启动，使用该快捷键退出不会使容器停止
 	--restart=always
+
+# **容器命令**
+
 docker exec -it <container id>
 
 # 应用开机自启
 docker update <container id> --restart=always
 
+
+
+# 查看容器配置
+docker inspect <container id>
+# 查看容器执行日志
+docker logs <container id>
+
 # 查看镜像、容器、卷、缓存等数量
+docker system df# 查看镜像、容器、卷、缓存等数量
 docker system df
+
 ```
 
 
