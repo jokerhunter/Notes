@@ -4,6 +4,17 @@
 ###### 尚硅谷阳哥邮箱
 zzyybs@126.com
 
+###### docker 用非root用户执行命令报错
+[docker 权限问题 Got permission denied解决方案](https://blog.csdn.net/m0_54861649/article/details/123870145)
+
+```shell
+sudo groupadd docker #添加docker用户组
+
+sudo gpasswd -a $USER docker #将登陆用户加入到docker用户组中
+
+newgrp docker #更新用户组
+```
+
 ## docker 命令
 ```shell
 docker search <key>
