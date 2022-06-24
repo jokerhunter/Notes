@@ -56,6 +56,9 @@ kubeadm 集群配置服务
 [aliyun提供的在ubuntu中安装k8s的方法](https://developer.aliyun.com/mirror/kubernetes)
 
 
+[Ubuntu 20 kubernetes集群 安装配置_2022年02月10日最新可用](https://blog.csdn.net/xiaozi_001/article/details/122869165)
+[kubeadm安装依赖镜像](https://segmentfault.com/a/1190000038248999)
+
 ##### 配置
 1. 配置hosts
 ```bash
@@ -73,6 +76,32 @@ k8s.gcr.io/pause:3.7
 k8s.gcr.io/etcd:3.5.3-0
 k8s.gcr.io/coredns/coredns:v1.8.6
 
+
+sudo tee ./images.sh <<-'EOF'
+#!/bin/bash
+images=(
+kube-apiserver:v1.24.1
+kube-controller-manager:v1.24.1
+kube-scheduler:v1.24.1
+kube-proxy:v1.24.1
+pause:3.7
+etcd:3.5.3-0
+coredns:v1.8.6
+)
+for imageName in ${images[@]} ; do
+docker pull registry.cn-hangzhou.aliyuncs.com/google_containers/$imageName
+docker tag registry.cn-hangzhou.aliyuncs.com/google_containers/$imageName k8s.gcr.io/$imageName
+docker rmi registry.cn-hangzhou.aliyuncs.com/google_containers/$imageName
+done
+EOF
+
+
+kubeadm init \
+--apiserver-advertise-address=192.168.75.101 \
+--control-plane-endpoint=cluster-endpoint \
+--kubernetes-version v1.20.9 \
+--service-cidr=10.96.0.0/16 \
+--pod-network-cidr=172.31.0.0/16
 
 
 kubeadm init \
