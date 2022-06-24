@@ -48,6 +48,21 @@ docker system df
 
 ```
 
+## docker 安装mysql8.0
+```shell
+docker run -p 3307:3306 --name mysql-master 
+-v /data/mysql/conf:/etc/mysql/conf.d 
+-v /data/mysql/log:/logs
+-v /data/mysql/data:/var/lib/mysql 
+-e MYSQL_ROOT_PASSWORD=root -d mysql:8.0
+
+
+docker run -p 13306:3306 --name mysql-master 
+-v /mydata/mysql-master/log:/var/log/mysql 
+-v /mydata/mysql-master/data:/var/lib/mysql 
+-v /mydata/mysql-master/conf:/etc/mysql/conf.d 
+-e MYSQL_ROOT_PASSWORD=123456 -d mysql:8.0
+```
 
 ## Dockerfile 命令 
 [Dockerfile官方文档](https://docs.docker.com/engine/reference/builder/)
