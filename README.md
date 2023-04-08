@@ -25,3 +25,22 @@ git push -u origin main
 ```shell
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 ```
+
+
+
+
+
+```shell
+git reset --hard <commit id>
+git push --force
+
+# 配置remote
+git remote -v
+git remote rm origin
+git remote add origin git@github.com:jokerhunter/Notes.git
+
+# fatal: The current branch master has no upstream branch.
+# To push the current branch and set the remote as upstream, use
+git push --set-upstream origin master
+```
+
