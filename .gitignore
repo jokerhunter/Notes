@@ -1,4 +1,5 @@
 *.zip
+*.rar
 
 # mysql/
 mysql/**/*.zip
@@ -9,11 +10,13 @@ mysql/**/*.zip
 *.ts
 *.mov
 
-WebCrawler/**/novel/
-WebCrawler/**/img/
-WebCrawler/**/video*/
-WebCrawler/**/*.zip
-WebCrawler/**/*.rar
+PythonSeries/WebCrawler/*.jpg
+PythonSeries/WebCrawler/**/novel/*
+PythonSeries/WebCrawler/**/novel/*.txt
+PythonSeries/WebCrawler/**/img/
+PythonSeries/WebCrawler/**/video*/
+PythonSeries/WebCrawler/**/*.zip
+PythonSeries/WebCrawler/**/*.rar
 
 # Redis/
 Redis/**/*.zip
