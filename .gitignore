@@ -17,3 +17,5 @@ WebCrawler/**/*.rar
 
 # Redis/
 Redis/**/*.zip
+
+/**/node_modules

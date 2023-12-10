@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebRTC test</title>
+</head>
+<body>
+  <video id="local-video" autoplay playsinline controls src=""></video>
+  <button id="showVideo">只打开摄像头</button>
+  <!-- <audio id="local-audio" autoplay controls>播放麦克风捕获的声音</audio> -->
+  <button id="showAudio">只打开麦克风</button>
+  <button id="showAll">打开摄像头和麦克风</button>
+  <p>通过getUserMedai()获取视频和音频</p>
+  <script>
+    function getConstraint(binaryConstraints) {
+      return constraints = {
+        audio: parseInt(binaryConstraints/10) == 1,
+        video: Boolean(binaryConstraints%10)
+      };
+    }
+    
+    // 处理打开摄像头成功
+    function handleSuccess(stream) {
+      const video = document.querySelector("#local-video");
+      video.srcObject = stream;
+    }
+
+    // 异常处理
+    function handleError(error) {
+      console.error("getUserMedia error:" + error)
+    }
+
+    // function onOnlyOpenCamera(e) {
+    //   navigator.mediaDevices.getUserMedia(getConstraint(01))
+    //   .then(handleSuccess)
+    //   .catch(handleError);
+    // }
+
+    // function handleAudioSuccess(stream) {
+    //   const video = document.querySelector("#local-audio");
+    //   video.srcObject = stream;
+    // }
+
+    // function onOnlyOpenMicrophone(e) {
+    //   navigator.mediaDevices.getUserMedia(getConstraint(10))
+    //   .then(handleSuccess)
+    //   .catch(handleError);
+    // }
+
+    function onOpenforParams(e, binaryConstraints) {
+      navigator.mediaDevices.getUserMedia(getConstraint(binaryConstraints))
+      .then(handleSuccess)
+      .catch(handleError);
+    }
+    // document.querySelector("#showVideo").addEventListener("click", onOnlyOpenCamera);
+    document.querySelector("#showVideo").addEventListener("click", (e) => onOpenforParams(e, 01));
+    // document.querySelector("#showAudio").addEventListener("click", onOnlyOpenMicrophone);
+    document.querySelector("#showAudio").addEventListener("click", (e) => onOpenforParams(e, 10));
+    document.querySelector("#showAll").addEventListener("click", (e) => onOpenforParams(e, 11));
+  </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client</title>
+</head>
+<body>
+  <h1>WebSocket简易聊天</h1>
+  <div id="app">
+    <input type="text" id="sendMsg" />
+    <button id="submitBtn">发送</button>
+  </div>
+</body>
+<script type="text/javascript">
+  // 在页面显示聊天内容
+  function showMessage(str, type) {
+    var div = document.createElement("div")
+    div.innerHTML = str;
+    if (type == "enter") {
+      div.style.color = "blue";
+    } else if (type == "leave") {
+      div.style.color = "red";
+    }
+    document.body.appendChild(div);
+  }
+  import WebSocket from 'ws'
+  // 新建一个websocket链接
+  const wss = new WebSocket('ws://192.168.1.3:8081');
+  // 打开websocket链接
+  wss.onopen = function () {
+    console.log("----已连接服务器----");
+    document.getElementById("submitBtn").onclick = function () {
+      var txt = document.getElementById("sendMsg").value;
+      if (txt) {
+        // 向服务器发送数据
+        wss.send(txt);
+      }
+    }
+  }
+  // 关闭连接
+  wss.onclose = function () {
+    console.log("websocket close")
+  }
+  // 接收服务器返回的数据
+  wss.onmessage = function (e) {
+    var mes = JSON.parse(e.data);
+    showMessage(mes.data, mes.type);
+  }
+</script>
+</html>
