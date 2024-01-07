@@ -10,13 +10,13 @@ mysql/**/*.zip
 *.ts
 *.mov
 
-PythonSeries/WebCrawler/*.jpg
-PythonSeries/WebCrawler/**/novel/*
-PythonSeries/WebCrawler/**/novel/*.txt
-PythonSeries/WebCrawler/**/img/
-PythonSeries/WebCrawler/**/video*/
-PythonSeries/WebCrawler/**/*.zip
-PythonSeries/WebCrawler/**/*.rar
+/**/WebCrawler/*.jpg
+/**/WebCrawler/**/novel/*
+/**/WebCrawler/**/novel/*.txt
+/**/WebCrawler/**/img/
+/**/WebCrawler/**/video*/
+/**/WebCrawler/**/*.zip
+/**/WebCrawler/**/*.rar
 
 # Redis/
 Redis/**/*.zip

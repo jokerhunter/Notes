@@ -1,10 +1,13 @@
 # Docker
 
 ## tips
+
 ###### 尚硅谷阳哥邮箱
+
 zzyybs@126.com
 
 ###### docker 用非root用户执行命令报错
+
 [docker 权限问题 Got permission denied解决方案](https://blog.csdn.net/m0_54861649/article/details/123870145)
 
 ```shell
@@ -16,8 +19,10 @@ newgrp docker #更新用户组
 ```
 
 ## docker 命令
+
 ```shell
 docker search <key>
+docker pull <image>
 docker images
 docker ps <container id>
     -a 所有包含没启动的
@@ -49,6 +54,7 @@ docker system df
 ```
 
 ## docker 安装mysql8.0
+
 ```shell
 docker run -p 3307:3306 --name mysql-master 
 -v /data/mysql/conf:/etc/mysql/conf.d 
@@ -64,7 +70,8 @@ docker run -p 13306:3306 --name mysql-master
 -e MYSQL_ROOT_PASSWORD=123456 -d mysql:8.0
 ```
 
-## Dockerfile 命令 
+## Dockerfile 命令
+
 [Dockerfile官方文档](https://docs.docker.com/engine/reference/builder/)
 
 ```Dockerfile
@@ -98,13 +105,14 @@ CMD
 #而且这些命令行参数会被当作参数送给 ENTRYPOINT 指令指定的程序
 ENTRYPOINT
 ```
+
 **nginx中的ENTRYPOINT,CMD使用实例**
 ![](image/docker/1653881422477.png)
 **Dockerfile命令汇总**
 ![](image/docker/1653850916178.png)
 
-
 ## docker微服务实战
+
 1. idea等开发工具新建java微服务项目
 2. 打成jar包，把jar包传入服务器
 3. 编写Dockerfile文件(jar包和Dockerfile最好处于同一文件夹下)
@@ -126,12 +134,16 @@ EXPOSE 6001
 ```
 
 ## docker network
+
 ### docker 网络命令
+
 - linux网络命令
+
 ```shell
 ifconfig
 ip addr
 ```
+
 docker启动后，网络中会新建一个docker0网络
 
 ```shell
@@ -141,33 +153,32 @@ docker network create <network name>
 docker network rm <network name>
 docker network inspect <network name>
 ```
+
 ![](image/docker/1653924510030.png)
 
 ![](image/docker/1653924393265.png)
 
 ### docker网络
+
 1. 作用
+
 - 保证容器间的互联和通信以及端口映射
 - 容器IP变动的时候可以通过服务名直接网络通信而不受影响
 
 2. 模式
-docker容器内部ip可能发生变化
+   docker容器内部ip可能发生变化
 
 -- network <模式>
+
 - bridge模式
-docker0上面的每一个veth匹配某个容器实例内部eth0，两两配对，一一匹配
-![](image/docker/1653931896030.png)
-
+  docker0上面的每一个veth匹配某个容器实例内部eth0，两两配对，一一匹配
+  ![](image/docker/1653931896030.png)
 - host模式
-使用主机的ip，docker run时不用使用-p指定端口
-
+  使用主机的ip，docker run时不用使用-p指定端口
 - none模式
-
-
 - container模式：--network container:<NAME/container id>
 
 ![](image/docker/1653932460375.png)
-
 
 ![](image/docker/1653932674797.png)
 
@@ -187,6 +198,7 @@ docker network create <network name>
 - Docker-comppose解决了容器与容器之间的编排问题
 
 ### 要素
+
 - 服务：redis,mysql,微服务等
 - 工程：一组关联的应用容器组成一个完整业务单元，docker-compose.xml
 
@@ -210,8 +222,8 @@ docker-compose
     stop        # 停止服务
 ```
 
-
 ### docker-compose.yml
+
 ```yml
 # 版本
 version: "3" 
@@ -239,7 +251,7 @@ services:
 		networks:
 			- atguigu_net
 		command: redis-server /etc/redis/redis.conf
-		
+	
 	mysql:
 		image: mysql:5.7
 		environment:
@@ -265,7 +277,6 @@ networks:
 
 ![](image/docker/1654019242255.png)
 
-
 ### docker-compose部署
 
 ```shell
@@ -273,12 +284,12 @@ docker compose up -d
 ```
 
 ## Portainer.io
+
 图形化docker管理工具
 
 ## docker容器监控
+
 建议学k8s替换
 CAdvisor监控收集 + InfluxDB存储数据 + Granfana展示图表
 
 ![](image/docker/1654021837123.png)
-
-
