@@ -28,6 +28,18 @@ int newCapacity = oldCapacity + (oldCapacity >> 1);
 
 Stack不使用，用Deque代替
 
+LinkedList尽量不使用，用ArrayDeque代替
 
+PriorityQueue优先级队列
+
+### HashMap和HashSet
+#### HashMap
+- 采用数组加链表方式存储
+- Java7只有链表，Java8则引入红黑树
+
+- Java8特性：数量超过`capacity*load_factor`则需要扩容，扩容为两倍
+`newCap = oldCap << 1`
+- 默认初始化数组大小为16
+- 链表插入的节点为第八个时，转化为红黑树
 
 
