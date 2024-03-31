@@ -6,7 +6,6 @@ https://courses.d2l.ai/zh-v2/
 - [教材](https://zh-v2.d2l.ai/)
 https://zh-v2.d2l.ai/
 - [视频教程](https://space.bilibili.com/1567748478/channel/seriesdetail?sid=358497)
-- [本地代码笔记](F:\Learning\ArtificialIntelligence\DriveIntoDeepLearning)
 
 ## 安装
 [代码笔记安装](https://zh-v2.d2l.ai/chapter_installation/index.html)
@@ -38,5 +37,5 @@ jupyter notebook
 ```
 
 ## 预备知识(preliminaries)
-[预备知识(preliminaries)](./chap1_preliminaries.md)
+[预备知识(preliminaries)](/PythonSeries/AiLearning/DiveIntoDeepLearning/chap1_preliminaries.md)
 
