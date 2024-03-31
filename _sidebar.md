@@ -31,9 +31,8 @@
   * [Java](/NativeJava/NativeJava.md)
 
 
-* PythonSeries
+* PythonSeries(/PythonSeries/PythonSeries.md)
   * [MiniConda](/PythonSeries/MiniConda.md)
-  * [PythonSeries](/PythonSeries/PythonSeries.md)
   * AiLearning
     * [DiveIntoDeepLearning]
       * [chap1_preliminaries](/PythonSeries/AiLearning/DiveIntoDeepLearning/chap1_preliminaries.md)
