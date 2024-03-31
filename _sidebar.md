@@ -1,10 +1,10 @@
 <!-- docs/_sidebar.md -->
-* [首页](/)
+* [首页](/Summary.md)
 * 开发组件
   * [NIFI](/开发组件/NIFI.md)
 * 前端FrontSide
   * [nodejs](/前端FrontSide/nodejs.md)
-  * [notesPre](/前端FrontSide/notesPre.md)
+  * [FrontSide](/前端FrontSide/FrontSide.md)
   * [云笔记实现方式](/前端FrontSide/云笔记实现方式)
 * 网络notes
   * [网络notes](/网络notes/网络notes.md)
@@ -32,12 +32,12 @@
 
 
 * PythonSeries
+  * [MiniConda](/PythonSeries/MiniConda.md)
+  * [PythonSeries](/PythonSeries/PythonSeries.md)
   * AiLearning
     * [DiveIntoDeepLearning]
       * [chap1_preliminaries](/PythonSeries/AiLearning/DiveIntoDeepLearning/chap1_preliminaries.md)
       * [DiveIntoDeepLearning](/PythonSeries/AiLearning/DiveIntoDeepLearning/DiveIntoDeepLearning.md)
-  * [MiniConda](/PythonSeries/MiniConda.md)
-  * [PythonSeries](/PythonSeries/PythonSeries.md)
 
 * WebRTC
   * [WebRTC](/WebRTC/WebRTC.md)
