@@ -24,6 +24,7 @@ Redis/**/*.zip
 /**/node_modules
 
 # Docsify
-
-
+简历/
 简历/*
+ProjectNotes/
+ProjectNotes/*
