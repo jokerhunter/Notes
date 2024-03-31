@@ -11,6 +11,15 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
   <!-- 箭头样式 -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
+  
+  <style type="text/css">
+    .content {
+      overflow: auto;
+    }
+    nav.app-nav li ul {
+      min-width: 100px;
+    }
+  </style>
 </head>
 <body>
   <div id="app"></div>
@@ -24,9 +33,10 @@
       loadSidebar: true,
       coverpage: true,
       subMaxLevel: 2,
-      // alias: {
-      //   "/.*/_sidebar.md": "/_sidebar.md",
-      // },
+      alias: {
+        "/.*/_sidebar.md": "/_sidebar.md",
+        "/.*/_navbar.md": "/_navbar.md",
+      },
       // 跳转后自动到顶部
       auto2top: true,
       // PLUGINS
@@ -71,8 +81,6 @@
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <!-- 导航栏 -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
   <!-- 代码高亮  https://cdn.jsdelivr.net/npm/prismjs@1/components/ -->
     
@@ -83,7 +91,6 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-csharp.min.js"></script>     
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-docker.min.js"></script>  
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-powershell.min.js"></script>  
-
 
   <!-- 多tab支持 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
@@ -96,7 +103,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/external-script.min.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/ga.min.js"></script> -->
 
   <!-- 全文搜索 -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>

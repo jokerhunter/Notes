@@ -1,28 +1,20 @@
-* 首页
 * 开发组件
 * 前端FrontSide
   * [nodejs](/前端FrontSide/nodejs.md)
   * [notesPre](/前端FrontSide/notesPre.md)
   * [云笔记实现方式](/前端FrontSide/云笔记实现方式.md)
-* 网络notes
-  * [网络notes](/网络notes/网络notes.md)
-* 微信小程序开发
-  * [小程序开发](/微信小程序开发/小程序开发.md)
 * 云原生
   * 云原生-kubernetes-k8s
     * [K8s+Docker+KubSphere+DevOps](/云原生/云原生-kubernetes-k8s/K8s+Docker+KubSphere+DevOps.md)
   * Docker
     * [docker](/云原生/Docker/docker.md)
-* DailyNotes
-  * [20220621_编译与链接](/DailyNotes/202206/20220621_编译与链接.md)
-* Git_Hub_Lab_Pod
+* Git
   * [git代码控制git代码控制](/Git_Hub_Lab_Pod/git代码控制.md)
 * Mysql
   * [Mysql](/Mysql/SQL_Mysql.md)
 * NativeJava
   * [Java](/NativeJava/NativeJava.md)
 * PythonSeries
-  * AiLearning
   * [MiniConda](/PythonSeries/MiniConda.md)
   * [PythonSeries](/PythonSeries/PythonSeries.md)
 * WebRTC
