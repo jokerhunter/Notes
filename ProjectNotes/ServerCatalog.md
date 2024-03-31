@@ -37,8 +37,8 @@ character_set_server = utf8mb4
 ### **redis6.2**
 
 ```
-ip:          1.15.186.206
-port:        16379
+ip:          106.15.127.92
+port:        36379
 password:    tqooteRedis0028
 ```
 
