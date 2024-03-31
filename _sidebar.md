@@ -5,6 +5,7 @@
 * 前端FrontSide
   * [nodejs](/前端FrontSide/nodejs.md)
   * [notesPre](/前端FrontSide/notesPre.md)
+  * [云笔记实现方式](/前端FrontSide/云笔记实现方式)
 * 网络notes
   * [网络notes](/网络notes/网络notes.md)
 
