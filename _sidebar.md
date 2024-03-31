@@ -35,7 +35,6 @@
     * [DiveIntoDeepLearning]
       * [chap1_preliminaries](/PythonSeries/AiLearning/DiveIntoDeepLearning/chap1_preliminaries.md)
       * [DiveIntoDeepLearning](/PythonSeries/AiLearning/DiveIntoDeepLearning/DiveIntoDeepLearning.md)
-  * others
   * [MiniConda](/PythonSeries/MiniConda.md)
   * [PythonSeries](/PythonSeries/PythonSeries.md)
 

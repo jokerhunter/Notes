@@ -4,14 +4,15 @@
 
 
 1. 配置npm安装全局模块路径和缓存cache路径
+
 ```shell
 npm config set prefix "D:\Programme\nodejsRepository\node_global"
-
 npm config set cache "D:\Programme\nodejsRepository\node_cache"
 ```
 
 2. 设置环境变量
- 系统变量中新建一个变量名为 “NODE_PATH”， 值为“F:\java\nodejs\node_modules”，如图：
+
+系统变量中新建一个变量名为 “NODE_PATH”， 值为“F:\java\nodejs\node_modules”，如图：
 
 ![1711202500014](image/nodejs/1711202500014.png)
 
