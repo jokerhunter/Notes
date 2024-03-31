@@ -1,8 +1,7 @@
 * 开发组件
   * [NIFI](/开发组件/NIFI.md)
-* 前端FrontSide
+* [前端FrontSide](/前端FrontSide/FrontSide.md)
   * [nodejs](/前端FrontSide/nodejs.md)
-  * [FrontSide](/前端FrontSide/FrontSide.md)
   * [云笔记实现方式](/前端FrontSide/云笔记实现方式.md)
 * 云原生
   * [云原生-kubernetes-k8s](/云原生/云原生-kubernetes-k8s/)
@@ -13,9 +12,8 @@
   * [Mysql](/数据库/Mysql/SQL_Mysql.md)
 * NativeJava
   * [Java](/NativeJava/NativeJava.md)
-* PythonSeries
+* [PythonSeries](/PythonSeries/PythonSeries.md)
   * [MiniConda](/PythonSeries/MiniConda.md)
-  * [PythonSeries](/PythonSeries/PythonSeries.md)
   * [AiLearning](/PythonSeries/AiLearning/)
 * WebRTC
   * [WebRTC](/WebRTC/WebRTC.md)
