@@ -1,5 +1,5 @@
 * 开发组件
-  * [NIFI](/开发组件/NIFI.md)
+  * [NIFI](/大数据开发组件/NIFI.md)
 * [前端FrontSide](/前端FrontSide/FrontSide.md)
   * [nodejs](/前端FrontSide/nodejs.md)
   * [云笔记实现方式](/前端FrontSide/云笔记实现方式.md)
