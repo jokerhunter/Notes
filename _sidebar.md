@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md -->
-* [首页](/README.md)
+* [Summary](/Summary.md)
 * [Records](/Records/)
 * 开发组件
   * [NIFI](/大数据开发组件/NIFI.md)
