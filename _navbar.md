@@ -2,9 +2,8 @@
   * [NIFI](/大数据开发组件/NIFI.md)
 * 数据库
   * [Mysql](/数据库/Mysql/SQL_Mysql.md)
-* NativeJava
-  * [Java](/NativeJava/NativeJava.md)
-
+* JavaSeries
+  * [NativeJava](/NativeJava/NativeJava.md)
 * 云原生
   * [云原生-kubernetes-k8s](/云原生/云原生-kubernetes-k8s/)
   * [Docker](/云原生/Docker/)
