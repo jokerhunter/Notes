@@ -1,11 +1,13 @@
-# Summary and Survey
+# Survey and Summary   
 
 ## 开发组件
 
 ### 组件
+
+#### Nifi
 [NIFI笔记](/大数据开发组件/NIFI.md)
 
-- TDH和CDH的区别
+#### TDH和CDH的区别
 
 【TDH】
 TDH：Transwarp Data Hub
@@ -15,7 +17,7 @@ TDH：Transwarp Data Hub
 CDH：Cloudera Data Hub
 Cloudera公司的发行版
 
-- DataOps:
+#### DataOps:
 
 [DataOps：数据中台的必备底座](https://zhuanlan.zhihu.com/p/307369553)
 
