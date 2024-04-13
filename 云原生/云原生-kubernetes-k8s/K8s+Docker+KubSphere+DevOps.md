@@ -1,7 +1,7 @@
 # 云原生
 
 ## Docker
-[Docker具体笔记](../Docker/docker.md)
+[Docker具体笔记](/云原生/Docker/docker.md)
 
 ## Kubernetes(K8s)
 
