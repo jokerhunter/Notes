@@ -1,46 +1,35 @@
-# Notes
+# Summary
 
-- git remote rm origin
-- git remote add origin <repo url>
+## 开发组件
 
-…or create a new repository on the command line
+### 组件
+[NIFI](/大数据开发组件/NIFI.md)
 
-```shell
-echo "# Notes" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:jokerhunter/Notes.git
-git push -u origin main
-```
+### 数据仓库
+[influxDB]()
 
-…or push an existing repository from the command line
-```shell
-git remote add origin git@github.com:jokerhunter/Notes.git
-git branch -M main
-git push -u origin main
-```
-…or import code from another repository
-```shell
-You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
-```
+## 数据库
+关系型数据库：mysql、oracle，
+Nosql：redis，mongodb
+大数据：doris
 
 
 
+## 云原生
+
+## Java后端
 
 
-```shell
-git reset --hard <commit id>
-git push --force
+## 前端FrontSide
+网页，移动端，小程序
 
-# 配置remote
-git remote -v
-git remote rm origin
-git remote add origin git@github.com:jokerhunter/Notes.git
+## PythonSeries
+[python系列](/PythonSeries/PythonSeries.md)
 
-# fatal: The current branch master has no upstream branch.
-# To push the current branch and set the remote as upstream, use
-git push --set-upstream origin master
-```
+## Git代码管理工具
+[Git](/Git_Hub_Lab_Pod/)
+git笔记和guli项目(D:\Code\Projects\guli_mall\README.md)
 
+
+## 视音频开发
+WebRTC
