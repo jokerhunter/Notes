@@ -1,5 +1,6 @@
 <!-- docs/_sidebar.md -->
-* [首页](/Summary.md)
+* [首页](/README.md)
+* [Records](/Records/)
 * 开发组件
   * [NIFI](/大数据开发组件/NIFI.md)
 * 数据库
@@ -32,5 +33,4 @@
   * [20220621_编译与链接](/DailyNotes/202206/20220621_编译与链接.md)
 * 网络notes
   * [网络notes](/网络notes/网络notes.md)
-* [Records](/Records/)
 * [initPage](/initPage.md)
