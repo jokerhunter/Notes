@@ -1,5 +1,11 @@
 # NiFi
 
+## Getting Starter
+Ubuntu
+```shell
+curl 
+```
+
 ## NiFi基本概念
 [官方文档https://nifi.apache.org/documentation/](https://nifi.apache.org/documentation/)
 
@@ -34,6 +40,17 @@ NiFi 是一个易于使用、功能强大而且可靠的流式数据处理和分
 | Connection | connection用来连接各个processor,编排processor流转网络。 |
 | Flow Controller | 流控制器维护流程如何连接，并管理和分配所有流程使用的线程。流控制器充当代理，促进处理器之间流文件的交换。 |
 | Process Group | 进程组里是一组特定的流程和连接，可以通过输入端口接收数据并通过输出端口发送数据，这样我们在进程组里简单地组合组件，就可以得到一个全新功能的组件(Process Group)。|
+
+### 核心架构
+
+![1713026541121](image/NIFI/1713026541121.png)
+
+- Web Server
+- Flow Controller
+- Extensions
+- FlowFile Repository
+- Content Repository
+- Provenance Repository
 
 
 ## 参考

@@ -29,8 +29,9 @@
       * [DiveIntoDeepLearning](/PythonSeries/AiLearning/DiveIntoDeepLearning/DiveIntoDeepLearning.md)
 * WebRTC
   * [WebRTC](/WebRTC/WebRTC.md)
-* DailyNotes
-  * [20220621_编译与链接](/DailyNotes/202206/20220621_编译与链接.md)
+* BasicNotes
+  * [Linux](/BasicNotes/Linux.md)
+  * [20220621_编译与链接](/BasicNotes/编译与链接/20220621_编译与链接.md)
 * 网络notes
   * [网络notes](/网络notes/网络notes.md)
 * [initPage](/initPage.md)
