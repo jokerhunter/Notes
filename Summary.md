@@ -114,6 +114,9 @@ thingsboard
 
 ### 数据仓库
 
+- Hadoop
+[Hadoop官方文档](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
+
 - InfluxDB
 
 [influxDB OOS docs](https://docs.influxdata.com/influxdb/v1/)
@@ -159,6 +162,17 @@ Alluxio 是世界上第一个面向基于云的数据分析和人工智能的开
 
 ## Java后端框架
 
+### java 调用其他语言
+
+Java调用Python协同开发
+各语言在WASM互相调用
+
+### DDD
+adapter、application、domain、infrastructure
+
+### 编程库
+vavr、guava
+
 ### java爬虫
 
 Gecco框架
@@ -201,6 +215,17 @@ KubeSphere、Lens、K9S、Shipyard、Kubernetic、Grafana、Kuboard、Kubevious�
 ### rancher
 
 [rancher 官网](https://docs.rancher.cn/)
+
+### 运维
+jenkins
+```shell
+clean package -Dmaven.test.skip=true -P dev -U
+docker build
+docker tag
+docker push
+rancher kubectl rollout restart ... -n dev
+```
+sqlops 管理sql
 
 ### k3s
 [k3s](https://docs.k3s.io/zh/)

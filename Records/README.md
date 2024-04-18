@@ -22,6 +22,11 @@
 
 ## programme tips
 
+### idea设置不注册nacos
+-Dspring.cloud.nacos.discovery.register-enable=false
+
+--debug.enable=true --debug.env=dev --debug.gatewayUrl=http://devdebug.encloudx.com
+
 ### springboot 监听器
 
 applicationEventListener
@@ -49,7 +54,15 @@ MetaObjectHandler 处理数据
 
 @FieldFill  注入数据（entity配置）
 
+#### 动态表名过滤器
+```java
 extends DynamicTableNameInerIntercepter 动态表名过滤器
 setTableNameHandlerMap
+```
 
-
+#### 添加过滤器
+```java
+mybatisPlusIntercepter.addInnerIntercepter(paginationInnerInterceptor)
+IdentifierGenerator
+@TableId(type=IdType.assign_uuid)
+```
