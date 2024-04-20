@@ -23,8 +23,9 @@
 * PythonSeries
   * [PythonSeries](/PythonSeries/PythonSeries.md)
   * [MiniConda](/PythonSeries/MiniConda.md)
-  * AIGC
-    * [AIGC](/PythonSeries/AIGC/AIGC.md)
+  * AI概念_AIGC_LLM
+    * [AIGC](/PythonSeries/AI概念_AIGC_LLM/AIGC.md)
+    * [LLM](/PythonSeries/AI概念_AIGC_LLM/LLM.md)
   * AiLearning
     * [DiveIntoDeepLearning]
       * [chap1_preliminaries](/PythonSeries/AiLearning/DiveIntoDeepLearning/chap1_preliminaries.md)

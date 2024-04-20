@@ -7,6 +7,7 @@
 ## 应用
 
 ### AILearning
+[AI Blogs jalammar](https://jalammar.github.io/)
 
 #### Dive into Deep Learning(李沐)
 
