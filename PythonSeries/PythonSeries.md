@@ -17,6 +17,11 @@
 
 [AIGC概念](/PythonSeries/AIGC.md)
 
+#### 大模型开发
+[LangChain官方文档](https://www.langchain.com.cn/getting_started/getting_started)
+
+### StreamLit开发网页
+
 ### 爬虫(Web Crawler)
 
 - [python爬虫github笔记链接](https://github.com/jokerhunter/WebCrawlerCode)
