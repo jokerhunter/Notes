@@ -9,3 +9,9 @@
 
 ## springcloud注册nacos
 [Nacos安装和springcloud注册nacos](/DevOps/Nacos.md)
+
+## springboot多模块项目中加载其他模块的yml文件
+
+[springboot多模块项目中加载其他模块的yml文件](https://blog.csdn.net/qq_31832209/article/details/112305352)
+
+

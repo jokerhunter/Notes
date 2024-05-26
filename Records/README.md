@@ -68,3 +68,9 @@ mybatisPlusIntercepter.addInnerIntercepter(paginationInnerInterceptor)
 IdentifierGenerator
 @TableId(type=IdType.assign_uuid)
 ```
+
+## Ai
+Motionshop官方项目主页：https://aigc3d.github.io/motionshop/
+Motionshop体验页：https://www.modelscope.cn/studios/Damo_XR_Lab/motionshop/summary
+viggle官网：https://www.viggle.ai/
+
