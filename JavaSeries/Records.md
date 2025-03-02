@@ -29,3 +29,6 @@ Mapstruct
 #### 如何优雅地记录操作日志？
 [如何优雅地记录操作日志？](https://tech.meituan.com/2021/09/16/operational-logbook.html)
 
+
+#### Maven
+[Maven中pom文件内scope标签中import值的详解](https://www.cnblogs.com/zhizhixiaoxia/p/14041697.html)

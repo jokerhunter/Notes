@@ -48,3 +48,4 @@
   * [网络notes](/网络notes/网络notes.md)
 * [initPage](/initPage.md)
 * [Others](/Others.md)
+  * [摄影](/摄影/record.md)

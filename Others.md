@@ -59,3 +59,40 @@ ers由mguk和mguh组合而成，一个负责回收动能，一个回收热能，
 ### Halo
 
 2017 F2首次使用，2018赛季开始强制安装Halo 
+
+
+## 做菜
+
+雀巢美极鲜0.5，东古一品鲜1.5，海天蒸鱼豉油2
+在每瓶容量一样的情况下
+1瓶味极鲜，3瓶一品鲜，4瓶蒸鱼豉油
+
+## tips
+文字OCR:  https://github.com/xksoft/OcrHelper
+https://github.com/hiroi-sora/Umi-oCR
+
+google浏览器 -》 无障碍
+win11：辅助功能 实时辅助字幕
+
+字体识别网站：https://font.chinaz.com/zhaozi/
+
+语音转文字：Fast whisper 和whisper-large效果哪个更好
+
+利用阿里的FunASR，结合Qwen2 7b模型，快速提取音视频内容，整理成一份结构化的markdown笔记
+速度比OpenAI的Whisper模型至少快5倍，而且中文的准确度更高
+https://github.com/harry0703/AudioNotes
+
+FastTitle 也叫字幕助手
+
+abbyy：收费
+abbyfinereader
+
+天若，quicker
+
+
+# 衬衫
+美式衬衫   oldschool  脏染格纹 水洗破坏
+复古港风   古巴领 扎染 独立自制
+文艺休闲   泡泡衫 肌理感
+
+
