@@ -74,3 +74,8 @@ Motionshop官方项目主页：https://aigc3d.github.io/motionshop/
 Motionshop体验页：https://www.modelscope.cn/studios/Damo_XR_Lab/motionshop/summary
 viggle官网：https://www.viggle.ai/
 
+
+## ipone 双开软件
+https://altstore.io/
+https://www.bilibili.com/video/BV1194y1n7Az
+

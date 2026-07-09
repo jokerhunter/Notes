@@ -1,6 +1,7 @@
 <!-- docs/_sidebar.md -->
 * [Summary](/Summary.md)
 * [Records](/Records/)
+* [Tools](/Tools/)
 * 开发组件
   * [NIFI](/大数据开发组件/NIFI.md)
 * 数据库
@@ -35,6 +36,7 @@
   * AI概念_AIGC_LLM
     * [AIGC](/PythonSeries/AI概念_AIGC_LLM/AIGC.md)
     * [LLM](/PythonSeries/AI概念_AIGC_LLM/LLM.md)
+    * [AI概念](/PythonSeries/AI概念_AIGC_LLM/AI概念.md)
   * AiLearning
     * [DiveIntoDeepLearning]
       * [chap1_preliminaries](/PythonSeries/AiLearning/DiveIntoDeepLearning/chap1_preliminaries.md)
