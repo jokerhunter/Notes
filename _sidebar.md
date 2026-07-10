@@ -33,6 +33,7 @@
 * PythonSeries
   * [PythonSeries](/PythonSeries/PythonSeries.md)
   * [MiniConda](/PythonSeries/MiniConda.md)
+  * [Jupyter](/PythonSeries/Jupyter.md)
   * AI概念_AIGC_LLM
     * [AIGC](/PythonSeries/AI概念_AIGC_LLM/AIGC.md)
     * [LLM](/PythonSeries/AI概念_AIGC_LLM/LLM.md)
