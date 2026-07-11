@@ -30,6 +30,33 @@ conda activate jupyterenv
 jupyter lab
 ```
 
+## jupyter 快捷键
+Ctrl + Shift + H：显示键盘快捷键帮助，如果不是该快捷键在HELP->Keyboard Shortcuts中查看。
 
+### 命令模式
+
+- ctrl+enter 执行当前代码块
+- alt+enter 执行当前代码块并新建一个代码块，移动到下一行
+- Shift + Enter： 运行当前单元并跳到下一个单元，如果是最后一个单元则新建单元 
+- l 代码显示行数
+- A / B：在当前单元上方/下方插入新单元 
+- X / C / V：剪切、复制、粘贴单元 
+- D, D（按两次）：删除当前单元 
+- Z：撤销删除单元 
+- Y / M：切换单元类型为代码/Markdown 
+- 1-6：将 Markdown 单元设置为对应标题级别 
+- I, I（按两次）：中断内核 
+- 0, 0（按两次）：重启内核 
+- 上下箭头 / J / K：选择上/下单元 
+- Shift + M：合并选中的多个单元 
+
+### 编辑模式快捷键
+
+- Ctrl + Enter：运行当前单元但不跳转 
+- Shift + Enter：运行当前单元并跳转到下一个单元 
+- Alt + Enter：运行当前单元并在下方插入新单元 
+- Ctrl + /：注释或取消注释选中代码行 
+- Tab：代码补全或缩进 
+- Shift + Tab：显示函数或对象的文档字符串 
 
 
