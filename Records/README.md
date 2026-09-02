@@ -1,5 +1,26 @@
 # Records
 
+https://vercel.com/new  免费网站部署
+
+https://docs.astro.build/zh-cn/getting-started/
+
+https://www.4real.ltd/ song blog
+
+https://github.com/BarrySong97/Jade
+
+## spring
+
+https://github.com/qiurunze123/memoryoptimization
+
+https://github.com/qiurunze123/miaosha
+
+https://github.com/macrozheng/mall
+
+https://github.com/macrozheng/mall-admin-web
+
+# token
+https://freebuff.ai/
+
 ## Blogs and Articles
 
 - 疯狂创客圈

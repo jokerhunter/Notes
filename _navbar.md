@@ -15,5 +15,8 @@
 * [PythonSeries](/PythonSeries/PythonSeries.md)
   * [MiniConda](/PythonSeries/MiniConda.md)
   * [AiLearning](/PythonSeries/AiLearning/)
+  * [RAG](/PythonSeries/RAG.md)
+  * [Agent](/PythonSeries/Agent.md)
+  * [Record](/PythonSeries/Record.md)
 * WebRTC
   * [WebRTC](/WebRTC/WebRTC.md)
