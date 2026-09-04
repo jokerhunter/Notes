@@ -1,5 +1,9 @@
 # Records
 
+comfyui
+krea2模型
+
+
 https://vercel.com/new  免费网站部署
 
 https://docs.astro.build/zh-cn/getting-started/
